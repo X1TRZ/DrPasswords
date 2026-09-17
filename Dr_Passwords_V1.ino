@@ -80,9 +80,8 @@ int passwordMenuCount = 4;
 
 char passwordNameValues[MAX_PASSWORD_ITEMS][32] = {
   "Gmail",
-  "GitHub",
-  "AWS",
-  "Bank"
+  "accountnew",
+  "you",
 };
 
 MenuItem passwordActionMenuItems[] = {
@@ -128,7 +127,7 @@ const char* getScreenTitle() {
     case SCREEN_TOTP_VIEW:        return "TOTP";
     case SCREEN_SETTINGS:         return "Settings";
     case SCREEN_MAIN:
-    default:                      return "Dr. Passwords";
+    default:                      return "welcome Passwords";
   }
 }
 
